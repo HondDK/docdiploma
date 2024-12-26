@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     pages: './src/app/routes'
   },
 
-  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt'],
+  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt', '@nuxt/eslint'],
 
   shadcn: {
     prefix: '',
